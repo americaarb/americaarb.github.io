@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)),
+        url(img/fondo.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F421F;
+    width: 100%;
+    height: 85px;
+
+}
+
+header img {
+    margin-left: 15px;
+    width: 180px;
+}
+.active{
+    color:#E0E487 !important;
+}
+.navbar ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.navbar ul a:hover {
+    color: #E0E487;
+}
+.ali-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alimentos{
+    width: 250px;
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+    margin: 20px;
+}
+.alimentos img{
+    width: 100%;
+    height: auto;
+}
+.ali-content{
+    padding: 8px;
+}
+.ali-content h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.ali-content p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.3;
+}
+footer{
+    margin: 0px;
+}
+.footercontainer{
+    width: 100%;
+    padding-top: 80px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.footerbottom{
+    color: #000000;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+}
